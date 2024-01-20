@@ -14127,16 +14127,16 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1496219226}
   serializedVersion: 2
-  m_Mass: 0.08
-  m_Drag: 0.5
+  m_Mass: 0.5
+  m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &1496219233
-SphereCollider:
+--- !u!136 &1496219233
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -14145,8 +14145,9 @@ SphereCollider:
   m_Material: {fileID: 13400000, guid: 05b20cfe935e1e1428d05a5a1bc64fec, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.1407727
+  m_Radius: 0.085
+  m_Height: 0.27
+  m_Direction: 2
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1507018829
 PrefabInstance:
@@ -15524,7 +15525,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  m_ThrowVelocityScale: 3
+  m_ThrowVelocityScale: 3.3
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
@@ -15540,8 +15541,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1692993066}
   serializedVersion: 2
-  m_Mass: 0.08
-  m_Drag: 0
+  m_Mass: 0.01
+  m_Drag: 0.4
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -15555,12 +15556,12 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1692993066}
-  m_Material: {fileID: 13400000, guid: 5ccebf2ae2a18754595703f1c33b9bee, type: 2}
+  m_Material: {fileID: 13400000, guid: 3b9e87276e2962e428cc3aef32012219, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.12
-  m_Center: {x: -0.000000074505806, y: 0, z: -0.000000055879354}
+  m_Radius: 0.17945845
+  m_Center: {x: 0, y: 0, z: 0.00000009685755}
 --- !u!1001 &1696085315
 PrefabInstance:
   m_ObjectHideFlags: 0
